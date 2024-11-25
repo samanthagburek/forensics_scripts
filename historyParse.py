@@ -38,16 +38,8 @@ def main():
     print("Most Recent Search: " + str(recent_search[0]))
     print("Most Recent Search Date/Time: " + str(recent_search[1]))
 
-
-
-
     # for row in cur.execute("SELECT * FROM sqlite_master WHERE type='table'"):
     #     print(row)
-
-
-
-
-
 
 if __name__ == "__main__":
     main()
